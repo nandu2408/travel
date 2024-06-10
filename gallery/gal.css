@@ -1,0 +1,29 @@
+ul{
+    display: block;
+    flex-wrap: nowrap;
+    list-style: none;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    border: 2px solid red;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+}
+img{
+    border-radius: 25px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+img:hover{
+    transition: ease-in;
+    transform: scale(1.2);
+}
+li:hover{
+    background-color: aqua;
+    border-color: yellowgreen;
+}
